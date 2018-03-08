@@ -1,0 +1,12 @@
+Your task is to implement the following function :
+
+int height(TreeNode*)
+Height of a binary tree is defined as the maximum number of edges encountered on any path from the root node till a leaf node.
+
+You will be working with the following structure :
+
+struct TreeNode {
+	int x;
+    struct TreeNode* L;
+    struct TreeNode* R;
+}

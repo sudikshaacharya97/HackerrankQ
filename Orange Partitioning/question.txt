@@ -1,0 +1,12 @@
+Tisha went to her orchard and plucked a bunch of oranges. Now she wants to keep aside some of the oranges to for herself and her children but also sell the biggest ones on the market. She takes a look at the last orange in her hand and decides that she would like to eat it. She seems to think it fair that all the oranges smaller than the orange in her hand can go to her children. All the oranges bigger than this one will be sold on the market. Write a program to help Tisha do this partition. Assume the oranges are neatly stacked in a row.
+
+Tisha does the following to partition the oranges :
+
+k = 0
+Check orange number i = 0,1,2,3.. n - 1 : 
+for ith orange :
+		if (orange[i] is smaller than or equal to orange[n-1]) :
+			swap orange[i] with orange[k]
+			k++
+swap orange[k] with orange[n-1]
+Simulate the process used by Tisha and print the resultant array of the size of oranges.

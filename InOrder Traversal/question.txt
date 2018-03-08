@@ -1,0 +1,10 @@
+Your task is to implement the following function :
+
+void inorder(TreeNode*)
+You will be working with the following structure :
+
+struct TreeNode {
+	int x;
+    struct TreeNode* L;
+    struct TreeNode* R;
+}
